@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Margarine", sans-serif;
+}
+
+:root{
+  --primary-color : #fafafa;
+  --secondary-color: #02050a;
+  --alt-color1 : #2cc973;
+  --alt-color2: #3373d4;
+
+
+}
+html{
+  background: var(--secondary-color);
+}

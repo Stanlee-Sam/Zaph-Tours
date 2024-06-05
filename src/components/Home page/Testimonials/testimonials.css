@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #fafafa;
+  --secondary-color: #02050a;
+  --alt-color1: #2cc973;
+  --alt-color2: #3373d4;
+}
+.testimonial-container {
+    background-color: var(--alt-color1);
+  width: 100%;
+}
+.testimonial-container p {
+  color: var(--alt_color3);
+}
+.title {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+.title p {
+  font-size: 20px;
+}
+.testimonial-container {
+  /* max-width: 800px; */
+  margin-inline: auto;
+  padding-top: 30px;
+  /* display: flex; */
+}
+.slider-container {
+  /* height: 70vh; */
+  /* width: 600px; */
+  position: relative;
+  user-select: none;
+  padding-inline: 1rem;
+  justify-items: center;
+  margin: 0 50px 0 50px;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+}
+
+.slider-container .review-img {
+  width: 150px;
+  height: 150px;
+  /* height: 200px; */
+  border-radius: 90%;
+  object-fit: cover;
+;
+}
+.box {
+  display: grid;
+  align-items: center;
+  background-color: var(--secondary_color);
+  padding: 3rem 1.875rem;
+  border-radius: 1rem;
+  margin: 0 10px 0 10px;
+  gap: 1rem;
+  justify-items: center;
+}
+.slider-container .content .info {
+  text-align: center;
+}
+.slider-container .content .text {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.slider-container .content .rating {
+  display: inline-block;
+  line-height: 1;
+}
+.slider-container .content .star {
+  color: orangered;
+  font-size: 1.1rem;
+}

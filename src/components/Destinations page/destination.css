@@ -1,0 +1,16 @@
+/* :root{
+    --primary-color : #fafafa;
+    --secondary-color: #02050a;
+    --alt-color1 : #2cc973;
+    --alt-color2: #3373d4;
+  
+  
+  }
+.featdest-section{
+    background: var(--alt-color2);
+}
+.featdest-section h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 30px;
+} */
