@@ -3,6 +3,7 @@ import Hero from "./Hero/hero";
 import About from "./About/about";
 import Topfeatdest from "./Featured Destinations/featdest";
 import Testimonial from "./Testimonials/testimonials";
+import Newsletter from "./Newsletter/newsletter";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <About/>
     <Topfeatdest/>
     <Testimonial/>
+    <Newsletter/>
     </>
   )
 }

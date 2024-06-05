@@ -6,7 +6,7 @@ import "react-slideshow-image/dist/styles.css";
 const Testimonial = () => {
   return (
     <section className="testimonial-container">
-      <div className="title">
+      <div className="testimonial-title">
         <h1>Testimonials</h1>
         <p>What clients are saying.</p>
       </div>

@@ -4,3 +4,45 @@
     --alt-color1: #2cc973;
     --alt-color2: #3373d4;
   }
+
+.newsletter-section{
+    background: url(../../../../src/assets/Hero/hero3.jpeg ) center no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    
+    
+}
+.card-content{
+    height: auto;
+    width: 600px;
+    position: absolute;
+    background: transparent;
+    transform: translate(-50%,50%);
+    left: 50%;
+    border-radius: 1rem;
+    padding: 4rem .5rem;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+}
+.card-content h1{
+    color: var(--primary-color);
+}
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.newsletter-form input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
