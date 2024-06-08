@@ -9,13 +9,15 @@
     background: url(../../../../src/assets/Hero/hero3.jpeg ) center no-repeat fixed;
     background-size: cover;
     background-position: center;
-    height: 150vh;
+    height: 100vh;
     
     
 }
 .card-content{
+    align-self: center;
+    /* top: 740%; */
     height: auto;
-    width: 600px;
+    /* width: 600px; */
     position: absolute;
     background: transparent;
     transform: translate(-50%,50%);
@@ -27,6 +29,7 @@
     backdrop-filter: blur(60px);
     -webkit-backdrop-filter: blur(60px);
     border: 1px solid rgba(255, 255, 255, 0.18);
+    padding-bottom: 10px;
     
 }
 .card-content h1{
@@ -42,7 +45,26 @@
 .newsletter-form input{
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 30px;
+    height: 40px;
     width: 300px;
     border-radius: 10px;
 }
+.card-content p{
+    padding-top:20px ;
+}
+@media (max-width: 768px) {
+    .card-content {
+      padding: 2rem 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-content {
+      padding: 1.5rem 0.5rem;
+    }
+  
+    .newsletter-form input,
+    .newsletter-form button {
+      max-width: 100%;
+    }
+  }

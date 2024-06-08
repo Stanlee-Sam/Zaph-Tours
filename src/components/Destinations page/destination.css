@@ -1,16 +1,281 @@
-/* :root{
-    --primary-color : #fafafa;
-    --secondary-color: #02050a;
-    --alt-color1 : #2cc973;
-    --alt-color2: #3373d4;
-  
-  
-  }
-.featdest-section{
-    background: var(--alt-color2);
+:root {
+  --primary-color: #fafafa;
+  --secondary-color: #02050a;
+  --alt-color1: #2cc973;
+  --alt-color2: #3373d4;
+}
+.featdest-section {
+  background: var(--alt-color1);
+  display: grid;
+  justify-content: space-around;
+  /* height: 200vh; */
+  /* margin-top: 5rem; */
 }
 .featdest-section h1 {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.dest-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* width: 200vh; */
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.dest-card {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dest-img-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  display: grid;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.dest-img1 {
+  background: url(../../assets/Destinations/coast.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  transition: background-size 0.3s ease-in-out;
+
+}
+.dest-img2 {
+    background: url(../../assets/Destinations/Mtkenya.jpeg);
+    background-size: cover;
+  background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img3 {
+    background: url(../../assets/Destinations/ruwenzori.jpg);
+    background-size: cover;
+  background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img4 {
+    background: url(../../assets/Destinations/tsavonp.jpeg);
+    background-size: cover;
+  background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img5 {
+    background: url(../../assets/Destinations/nairobi.jpeg);
+    background-size: cover;
+  background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img6 {
+    background: url(../../assets/Destinations/maasaimara.jpeg);
+    background-size: cover;
+  background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img7 {
+    background: url(../../assets/Destinations/hellsgate.jpeg);
+    background-size: cover;
+  background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img8 {
+    background: url(../../assets/Destinations/lakenakuru.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img9 {
+    background: url(../../assets/Destinations/Amboseli.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-size 0.3s ease-in-out;
+  
+  }
+  .dest-img10 {
+  background: url(../../assets/Destinations/sambur.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  transition: background-size 0.3s ease-in-out;
+
+}
+.dest-card .dest-content {
+  position: absolute;
+  padding: 1rem;
+  bottom: 0;
+  height: 18%;
+  /* background: rgba(255, 255, 255, 0.25); */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur (20px);
+  -webkit-backdrop-filter: blur (20px);
+  border-radius: 25px;
+  transition: height 0.3s ease-in-out;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.dest-content h3{
+  text-align: center;
+  padding-bottom: 10px;
+ 
+}
+.dest-content .dest-description {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding-bottom: 10px;
+
+}
+.dest-btn {
+  float: right;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  background: var(--alt-color1);
+  border: 0;
+  color: var(--primary-color);
+  border-radius: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  
+  
+}
+.dest-btn:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: var(--secondary-color);
+}
+.dest-card:hover .dest-content {
+  height: 80%;
+}
+.dest-card:hover .img {
+  background-size: 150%;
+}
+.dest-card:hover .dest-content .dest-description {
+  opacity: 1;
+}
+@media (max-width: 1200px) {
+  .dest-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .dest-card {
+    width: 400px;
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .dest-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dest-card {
+    /* width: 80%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .dest-content{
+    font-size: 15px;
+  }
+  .featdest-section h1 {
     color: var(--primary-color);
     text-align: center;
-    margin-top: 30px;
-} */
+    font-size: 40px;
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .dest-card {
+    width: 100%;
+  }
+  .dest-content{
+    font-size: 10px;
+  }
+  .featdest-section .destination-title {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 150px;
+  }
+}
+@media (max-width: 435px) {
+  .dest-card{
+    width: 340px;
+  }
+}
+@media (max-width: 350px) {
+  .dest-card{
+    width: 300px;
+  }
+}
+@media (max-width: 346px) {
+  .dest-card{
+    width: 290px;
+  }
+}

@@ -1,0 +1,258 @@
+:root {
+  --primary-color: #fafafa;
+  --secondary-color: #02050a;
+  --alt-color1: #2cc973;
+  --alt-color2: #3373d4;
+}
+.trips-section {
+  background: var(--alt-color1);
+}
+.trips-section h1{
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+.trips-section-cards {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+.trips-section .trips-product {
+  width: 80%;
+  max-width: 750px;
+  display: flex;
+  margin-bottom: 60px;
+}
+.trips-section .trips-product .trips-image-gallery {
+  flex-basis: 43%;
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.07);
+  position: relative;
+  border-radius: 15px;
+}
+
+.trips-section .trips-product .trips-image-gallery img {
+  width: 100%;
+  height: 70vh;
+  /* padding-top: 150px; */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.controls {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+}
+.trip-img-btn {
+  width: 15px;
+
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin-bottom: 10px;
+}
+.trip-img-btn.active {
+  background: var(--alt-color1);
+}
+
+.trips-product-details {
+  flex-basis: 53%;
+  background-color: var(--primary-color);
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0.1);
+  /* transform: scale(1.07); */
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.trips-product-details .details {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+
+}
+.details h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 35px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.details p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px 0 10px;
+}
+.details h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.details h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.trips-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trips-btn button {
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--alt-color2);
+  margin-top: 10px;
+}
+
+.trips-btn button:hover {
+  background-color: var(--alt-color1);
+  color: var(--primary-color);
+}
+
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1130px) {
+  .trips-section-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .details h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .details p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px 0 10px;
+  }
+  .details h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .details h4 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+  } 
+}
+
+/* md */
+@media (max-width: 970px) {
+  .details h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .details p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px 0 10px;
+  }
+  .details h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+  .details h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+  } 
+}
+@media (max-width: 730px) {
+  .trips-section h1{
+    padding-top: 130px;
+  }
+}
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .details h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .details p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px 0 10px;
+  }
+  .details h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 5px;
+  }
+  .details h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+  } 
+  .trips-section .trips-product {
+    width: 80%;
+    max-width: 750px;
+    display: grid;
+    margin-bottom: 60px;
+}
+.trips-product-details .details{
+  height: 50vh;
+}
+.trips-product-details {
+  flex-basis: 53%;
+  background-color: var(--primary-color);
+  box-shadow: 0px 0px 5px 10px rgba(0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+}
