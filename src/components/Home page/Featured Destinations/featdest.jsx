@@ -81,7 +81,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="../../../../src/assets/top_destinations/Mt.Kenya.jpeg"
+              src="../../../../src/assets/top_destinations/kenya.jpeg"
               alt=""
             />
           </div>
@@ -97,7 +97,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="../../../../src/assets/top_destinations/Mt Rwenzori hike.jpeg"
+              src="../../../../src/assets/top_destinations/ruwenzori.jpeg"
               alt=""
             />
           </div>
@@ -113,7 +113,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="../../../../src/assets/top_destinations/Lake Nakuru.jpeg"
+              src="../../../../src/assets/top_destinations/ruwenzori.jpeg"
           alt=""
             />
           </div>
