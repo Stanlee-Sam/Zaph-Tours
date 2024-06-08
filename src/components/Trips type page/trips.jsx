@@ -5,54 +5,54 @@ import "./trips.css";
 const Trips = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const imagesHoneymoon = [
-    "../../../src/assets/Trips_type/Honeymoon1.jpeg",
-    "../../../src/assets/Trips_type/Honeymoon2.jpeg",
-    "../../../src/assets/Trips_type/Honeymoon3.jpeg",
+    "/assets/Trips_type/Honeymoon1.jpeg",
+    "/assets/Trips_type/Honeymoon2.jpeg",
+    "/assets/Trips_type/Honeymoon3.jpeg",
   ];
   const imagesFamily = [
-    "../../../src/assets/Trips_type/family1.jpeg",
-    "../../../src/assets/Trips_type/family2.jpeg",
-    "../../../src/assets/Trips_type/family3.jpeg",
+    "/assets/Trips_type/family1.jpeg",
+    "/assets/Trips_type/family2.jpeg",
+    "/assets/Trips_type/family3.jpeg",
   ];
   const imagesAdventure = [
-    "../../../src/assets/Trips_type/adventure1.jpeg",
-    "../../../src/assets/Trips_type/adventure2.jpeg",
-    "../../../src/assets/Trips_type/adventure3.jpeg",
+    "/assets/Trips_type/adventure1.jpeg",
+    "/assets/Trips_type/adventure2.jpeg",
+    "/assets/Trips_type/adventure3.jpeg",
   ];
   const imagesCultural = [
-    "../../../src/assets/Trips_type/cultural1.jpeg",
-    "../../../src/assets/Trips_type/cultural2.jpeg",
-    "../../../src/assets/Trips_type/cultural3.jpeg",
+    "/assets/Trips_type/cultural1.jpeg",
+    "/assets/Trips_type/cultural2.jpeg",
+    "/assets/Trips_type/cultural3.jpeg",
   ];
   const imagesWildlife = [
-    "../../../src/assets/Trips_type/wildlife1.jpeg",
-    "../../../src/assets/Trips_type/wildlife2.jpeg",
-    "../../../src/assets/Trips_type/wildlife3.jpeg",
+    "/assets/Trips_type/wildlife1.jpeg",
+    "/assets/Trips_type/wildlife2.jpeg",
+    "/assets/Trips_type/wildlife3.jpeg",
   ];
   const imagesEcotours = [
-    "../../../src/assets/Trips_type/ecotour1.jpeg",
-    "../../../src/assets/Trips_type/ecotour2.jpeg",
-    "../../../src/assets/Trips_type/ecotour3.jpeg",
+    "/assets/Trips_type/ecotour1.jpeg",
+    "/assets/Trips_type/ecotour2.jpeg",
+    "/assets/Trips_type/ecotour3.jpeg",
   ];
   const imagesLuxury = [
-    "../../../src/assets/Trips_type/luxury1.jpeg",
-    "../../../src/assets/Trips_type/luxury2.jpeg",
-    "../../../src/assets/Trips_type/luxury3.jpeg",
+    "/assets/Trips_type/luxury1.jpeg",
+    "/assets/Trips_type/luxury2.jpeg",
+    "/assets/Trips_type/luxury3.jpeg",
   ];
   const imagesBeach = [
-    "../../../src/assets/Trips_type/beach1.jpeg",
-    "../../../src/assets/Trips_type/beach2.jpeg",
-    "../../../src/assets/Trips_type/beach3.jpeg",
+    "/assets/Trips_type/beach1.jpeg",
+    "/assets/Trips_type/beach2.jpeg",
+    "/assets/Trips_type/beach3.jpeg",
   ];
   const imagesRetreats =[
-    "../../../src/assets/Trips_type/retreats1.jpeg",
-    "../../../src/assets/Trips_type/retreats2.jpeg",
-    "../../../src/assets/Trips_type/retreats3.jpeg",
+    "/assets/Trips_type/retreats1.jpeg",
+    "/assets/Trips_type/retreats2.jpeg",
+    "/assets/Trips_type/retreats3.jpeg",
   ]
   const imagesCulinary = [
-    "../../../src/assets/Trips_type/culinary1.jpeg",
-    "../../../src/assets/Trips_type/culinary2.jpeg",
-    "../../../src/assets/Trips_type/culinary3.jpeg",
+    "/assets/Trips_type/culinary1.jpeg",
+    "/assets/Trips_type/culinary2.jpeg",
+    "/assets/Trips_type/culinary3.jpeg",
   ]
 
   useEffect(() => {
