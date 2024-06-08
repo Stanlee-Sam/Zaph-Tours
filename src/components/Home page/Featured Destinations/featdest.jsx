@@ -9,7 +9,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="/public/assets/top_destinations/kenya.jpeg"
+              src="/assets/top_destinations/kenya.jpeg"
               alt=""
             />
           </div>
@@ -25,7 +25,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="/public/assets/top_destinations/ruwenzori.jpeg"
+              src="/assets/top_destinations/ruwenzori.jpeg"
               alt=""
             />
           </div>
@@ -41,7 +41,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="/public/assets/top_destinations/nakuru.jpeg"
+              src="/assets/top_destinations/nakuru.jpeg"
               alt=""
             />
           </div>
@@ -56,7 +56,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="/public/assets/top_destinations/tsavo.jpeg"
+              src="/assets/top_destinations/tsavo.jpeg"
               alt=""
             />
           </div>
@@ -69,7 +69,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="/public/assets/top_destinations/nairobi.jpeg"
+              src="/assets/top_destinations/nairobi.jpeg"
               alt=""
             />
           </div>
@@ -84,7 +84,7 @@ const Topfeatdest = () => {
         <div className="individual-destination">
           <div className="dest-pic">
             <img
-              src="/public/assets/top_destinations/coast.jpeg"
+              src="/assets/top_destinations/coast.jpeg"
               alt=""
             />
           </div>
